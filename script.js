@@ -7,7 +7,7 @@ function firstNonRepeatedChar(str) {
 				cnt++;
 			}
 		}
-		if (cnt == 1)return;
+		if (cnt == 1)return str[i];
 	}
 	return null;
 }
